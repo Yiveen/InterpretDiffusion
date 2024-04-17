@@ -57,20 +57,20 @@ class DataCreator:
 
 
 class Cfg:
-    root_dir="datasets/dog"
+    root_dir="datasets/person"
     num_samples=1000
 
     image_prompt = [
-        "a dog",
+        "a woman",
     ]
 
     input_prompt_and_target_concept = [
         [
-            ["a dog", ["running"]],
+            ["a person", ["woman"]],
          ],
     ]
 
-    validation_prompt_and_concept = ["a dog", ["running"]]
+    validation_prompt_and_concept = ["a person", ["woman"]]
 
 
 creator=DataCreator(Cfg)

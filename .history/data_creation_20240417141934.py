@@ -57,7 +57,7 @@ class DataCreator:
 
 
 class Cfg:
-    root_dir="datasets/dog"
+    root_dir="datasets/person"
     num_samples=1000
 
     image_prompt = [
